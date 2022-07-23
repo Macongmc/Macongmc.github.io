@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>青山的博客</title>
   
-  
+  <subtitle>懒惰先生</subtitle>
   <link href="https://macongmc.github.io/atom.xml" rel="self"/>
   
   <link href="https://macongmc.github.io/"/>
