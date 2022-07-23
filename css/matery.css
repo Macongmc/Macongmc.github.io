@@ -240,8 +240,26 @@ mark {
     margin-bottom: 0;
 }
 
+/* 整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色. */
 .bg-color {
     background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+}
+
+@-webkit-keyframes rainbow {
+   /* 动态切换背景颜色. */
+}
+
+@keyframes rainbow {
+    /* 动态切换背景颜色. */
+}
+
+body {
+    /* background-color: #eaeaea; */
+    /* 增加背景壁纸*/
+    background: url("https://ts1.cn.mm.bing.net/th/id/R-C.aeb3e9f9406286cfcc98299e030de898?rik=HTCgDVL1W1n5Kw&riu=http%3a%2f%2fup.deskcity.org%2fpic%2f88%2f4b%2f79%2f884b79a0ea88d4faa521fce93d6b2c40.jpg&ehk=z3%2ffzx5J1NbSpqQQgNPeetSXXBNV1yZn6ousGgSV9Ng%3d&risl=&pid=ImgRaw&r=0"), url("https://ts1.cn.mm.bing.net/th/id/R-C.1e670af528d4aac7d858aeab6436d2d6?rik=OBWRV%2biBaDwRcw&riu=http%3a%2f%2fwww.beihaiting.com%2fuploads%2fallimg%2f150307%2f10723-15030G20Ab07.jpg&ehk=b2AOFe0YPBd6APAOy63TcBUlRDkVbxTsfyxoUT9GyCw%3d&risl=&pid=ImgRaw&r=0") 0px 0px;
+    background-attachment: fixed;
+    margin: 0;
+    color: #34495e;
 }
 
 .text-color {
